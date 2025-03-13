@@ -15,6 +15,9 @@ namespace APIAutomation.StepDefinitions
     public class OCRServiceStepDefinitions
     {
         private readonly OCRServicePage _OCRServicePage;
+
+        private readonly OCRServiceStepDefinitions test;
+
         private RestResponse? _response;
         private readonly ScenarioContext _scenarioContext;
         public OCRServiceStepDefinitions(ScenarioContext scenarioContext)
